@@ -18,14 +18,15 @@ Monte Carlo integration, on the other hand, employs a non-deterministic approach
 ### References
 In the creation of this mini-project, I have used several online resources: 
 - https://maths.ac-creteil.fr/IMG/pdf/methode_monte_carlo.pdf
-- 
-- 
+- https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermS/11_lois_densite_loi_normale/11_integration_methode_montecarlo.pdf
+- https://tangentex.com/MonteCarlo.htm
+- https://www.mv.helsinki.fi/home/rummukai/simu/random
 
 ### Issues
 There are no actual issues as far as the mini-project goes, but here is a list of things to improve: 
-- 
-- 
-- 
+- Better documentation for the mini-project (in the format of a guided tutorial)
+- Better, more optimized, and more readable code
+- A larger variety of functions go better illustrate the principles of Monte Carlo Integration
 
 ### Conclusion
 
