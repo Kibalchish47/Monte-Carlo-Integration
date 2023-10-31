@@ -5,14 +5,19 @@ One could use this notebook as a tutorial for Monte Carlo approximation of non-t
 
 ### Historical and mathematical context
 
+
 ### The Monte Carlo Method(s)
-Monte Carlo approximation is 
+When a function cannot (or can be but in a very convoluted way) be integrated analytically, one should integrate it numerically. Monte Carlo integration consists of integrating a function using random numbers. 
+
+In numerical integration, methods such as the trapezoidal rule use a deterministic approach. 
+
+Monte Carlo integration, on the other hand, employs a non-deterministic approach: each realization provides a different outcome. In Monte Carlo, the final outcome is an approximation of the correct value with respective error bars, and the correct value is likely to be within those error bars.
 
 ### The Code 
 
 ### References
 In the creation of this mini-project, I have used several online resources: 
-- 
+- https://maths.ac-creteil.fr/IMG/pdf/methode_monte_carlo.pdf
 - 
 - 
 
