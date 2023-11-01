@@ -4,12 +4,14 @@ This mini-project aims to explain and perform Monte Carlo Integration on several
 One could use this notebook as a tutorial for Monte Carlo approximation of non-trivial functions (I will try to make this as comprehensible as possible!!!). 
 
 ### Historical and mathematical context
+The technique was initially developed by Stanislaw Ulam, a mathematician who worked on the Manhattan Project, the secret effort to create the first atomic weapon. He shared his idea with John Von Neumann, a colleague at the Manhattan Project, and the two collaborated to refine the Monte Carlo simulation.
 
+The Monte Carlo simulation was named after the gambling destination in Monaco because chance and random outcomes are central to this modeling technique, as they are to games like roulette, dice, and slot machines.
 
 ### The Monte Carlo Method(s)
 When a function cannot (or can be but in a very convoluted way) be integrated analytically, one should integrate it numerically. Monte Carlo integration consists of integrating a function using random numbers. 
 
-In numerical integration, methods such as the trapezoidal rule use a deterministic approach. 
+In numerical integration, methods such as the trapezoidal rule use a deterministic approach (you get the same result no matter how many times you repeat the simulation). 
 
 Monte Carlo integration, on the other hand, employs a non-deterministic approach: each realization provides a different outcome. In Monte Carlo, the final outcome is an approximation of the correct value with respective error bars, and the correct value is likely to be within those error bars.
 
